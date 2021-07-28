@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "app-a"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "Lerna scripts",
+  "scripts": {
+    "start": "lerna run --parallel start",
+    "build": "lerna run build",
+    "serve": "lerna run --parallel serve"
+  },
+  "author": "Rudolfs Pukitis",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
