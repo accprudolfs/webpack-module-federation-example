@@ -1,11 +1,11 @@
 {
-  "name": "app-a",
+  "name": "app-b",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "webpack serve --port 8080",
+    "start": "webpack serve --port 8000",
     "build": "webpack --mode production",
-    "serve": "serve dist -p 8080"
+    "serve": "serve dist -p 8000"
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",

@@ -7,7 +7,7 @@ const { ModuleFederationPlugin } = webpack.container
 module.exports = merge(common, {
   plugins: [
     new ModuleFederationPlugin({
-      name: 'app-a',
+      name: 'app-b',
       filename: 'remoteEntry.js',
       remotes: {
         login: 'login@//localhost:3000/remoteEntry.js',
