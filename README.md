@@ -13,23 +13,10 @@ npm i
 npm start
 ```
 
-Install it and build:
+Install, build and serve it:
 
 ```bash
 npm i
 npm run build
-```
-
-Install it and bundle in production mode:
-
-```bash
-npm i
-npm run bundle
-```
-
-Install it and bundle in analyze mode:
-
-```bash
-npm i
-npm run analyze
+npm run serve
 ```
